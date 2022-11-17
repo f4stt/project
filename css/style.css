@@ -149,12 +149,6 @@ a {
     display: inline-block;
 }
 
-.card-link:hover {
-    cursor: pointer;
-    display: inline-block;
-}
-
-
 /* list */
 
 .list {
