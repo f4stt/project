@@ -38,6 +38,7 @@ a {
     padding: 30px 0;
     background-color: #000;
     position: sticky;
+    z-index: 1;
     top: 0;
 }
 
@@ -157,9 +158,10 @@ a {
 /* list */
 
 .list {
-    position: sticky;
-    left: 0;
-    top: 100px;
+    position: fixed;
+    display: inline-block;
+    left: 100px;
+    top: 200px;
 }
 
 .list .list-item {
